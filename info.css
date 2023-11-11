@@ -1,0 +1,204 @@
+
+body,
+html {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  position: relative;
+  border-radius: 12px;
+  background: #ffffff00;
+background-image: url(Untitled\ design.png);
+}
+
+html {
+  color: var(--neutral-800);
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  max-height: 100%;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.user-details2 .bio-name2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  font-style: italic;
+  width: 100%;
+  white-space: pre-wrap;
+  color: #ffffff;
+  position: relative;
+  animation-name: NAME;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
+@keyframes NAME{
+from {top: 150px;}
+to {top: 60px;}
+}
+
+.user-details3 .bio-name3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  font-style: italic;
+  width: 100%;
+  white-space: pre-wrap;
+  color: #ffffff;
+  position: relative;
+  animation-name: NAME;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
+@keyframes NAME{
+from {top: 150px;}
+to {top: 1200px;}
+}
+.user-details {
+    margin: 1.5rem;
+    overflow-wrap: break-word;
+    position: relative;
+    animation-name: NAME;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+   }
+  @keyframes NAME{
+  from {top: 150px;}
+  to {top: 75px;}
+  }
+  .user-details .user-identity {
+    margin-top: -75px;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    max-width: 100%;
+  }
+  
+  .user-details .user-name {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.3;
+    display: inline;
+    color: #ffffff;
+    ;
+    
+  }
+  
+  .user-details .user-pronouns {
+    font-size: 1.125rem;
+    font-weight: 12000;
+    font-style: italic;
+    color: var(--neutral-700);
+    display: inline;
+  }
+  
+
+  
+
+  .left-picture {
+    display: block;
+    height: 10%;
+    width: 10px;
+    border-radius: 5%;
+
+    background: #ffffffac;
+    transform-origin: center;
+    will-change: transform;
+    justify-content: center;
+    position: absolutez;
+  box-shadow: #ffffff;
+    z-index: 2;
+    text-shadow: #ffffff;
+    left: 0%;
+    transform: translateX(10px) translateY(0px);
+    position:relative;
+    animation-name:PHOTO;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+   }
+  @keyframes PHOTO {
+  from {top: 200px;}
+  to {top:50px;}
+  }
+
+
+ .left-picture[data-image-type="profile"] {
+    width: 9px;
+     padding-top: 0%;
+     border-radius: 5%;
+   }
+   
+   .left-picture[data-image-type="profile"]::before {
+    content: "";
+    background-color: #226ec400;
+    width: 1920px;
+    height: calc(100% + 2 * 3px);
+    position: absolute;
+    left: 0px;
+    box-shadow: #ffffff;
+    justify-content: center;
+max-width: 19200px;
+    bottom: -3px;
+    border-radius: 50%;
+  }
+
+  .left-picture .left-picture-img {
+    position: absolute;
+    max-width: 1920px;
+    height: 97%;
+    border-radius: 0%;
+justify-content: center;
+    top: 5px;
+    left: 5px;
+    box-shadow: #ffffff;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+
+
+
